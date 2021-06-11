@@ -1,1 +1,22 @@
 @import "semantic-ui";
+@import 'bootstrap';
+
+.chatbox {
+  height: 450px;
+}
+
+.login_signup {
+  margin-top: 100px;
+}
+
+#messages {
+  /* this below will add a scroll bar to the chatbox so it doesn't overflow out of the chatbox */
+  overflow: auto;
+  height: 15em;
+}
+
+#chatbox_button {
+  button {
+  display: none;
+  }
+}
