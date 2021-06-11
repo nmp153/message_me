@@ -89,7 +89,7 @@ Rails.application.configure do
   #Action Cable can only accept WebSocket requests from specified origins. We need to pass those origins to the Action Cable server's configuration as an array.
   config.action_cable.allowed_request_origins = ['https://message-me-rails-app-825.herokuapp.com', 'http://message-me-rails-app-825.herokuapp.com'
 
-  if ENV["RAILS_LOG_TO_STDOUT"].present?
+  if ENV['RAILS_LOG_TO_STDOUT'].present?
     logger           = ActiveSupport::Logger.new(STDOUT)
     logger.formatter = config.log_formatter
     config.logger    = ActiveSupport::TaggedLogging.new(logger)
