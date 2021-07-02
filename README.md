@@ -2,6 +2,9 @@ Message ME!
 
 This simple chat app allows you to signup and chat with your buddies! This app enables websocket usage to allow broadcasting messages to channels!
 
+Here is a working version of the app this far!
+https://message-me-rails-app-825.herokuapp.com/
+
 
 
 Some new features to be added:
